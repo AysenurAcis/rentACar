@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 public class Brand {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) //  Veri tabanında 1-1 arttır
+    @GeneratedValue(strategy = GenerationType.IDENTITY)  //  Veri tabanında 1-1 arttır
     @Column(name="id")
     private int id;
 

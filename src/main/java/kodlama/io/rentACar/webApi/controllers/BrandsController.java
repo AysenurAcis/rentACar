@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RestController // bilgilendirme ifadesi olarak kullanıyoruz
-@RequestMapping ("/api/brands/") // nerede olduğunu bulmak için
+@RestController  // bilgilendirme ifadesi olarak kullanıyoruz
+@RequestMapping ("/api/brands/")  // nerede olduğunu bulmak için
 public class BrandsController {
     private final BrandService brandService;
 

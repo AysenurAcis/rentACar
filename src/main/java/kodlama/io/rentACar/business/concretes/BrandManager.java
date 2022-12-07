@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-@Service //  Bu sınıf bir business nesnesidir
+@Service //  Bu sınıf bir business nesnesidir onu bildiriyoruz
 public class BrandManager implements BrandService {
 
     private final BrandRepository brandRepository;

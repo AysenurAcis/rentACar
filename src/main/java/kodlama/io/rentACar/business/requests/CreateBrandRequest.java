@@ -7,6 +7,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateBrandRequest {    // api yi kullanan son kullanıcan bişey alıyorsak request , veriyorsak response
+public class CreateBrandRequest {    // api yi kullanan son kullanıcan bişey alıyorsak request , veriyorsak response kullanıyoruz
    private String name;
 }
